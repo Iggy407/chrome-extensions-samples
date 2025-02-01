@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "XLS Icon Detector",
+    "name": "CSV Filename Extractor",
     "version": "1.0",
-    "description": "Detects the XLS icon and displays a popup.",
+    "description": "Extracts the CSV filename from a webpage.",
     "permissions": [
       "activeTab",
       "scripting"
@@ -10,14 +10,17 @@
     "action": {
       "default_popup": "popup.html"
     },
-    "content_scripts": [
-      {
-        "matches": ["<all_urls>"],
-        "js": ["content.js"],
-        "run_at": "document_end"
-      }
-    ],
     "background": {
       "service_worker": "background.js"
-    }
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "<all_urls>"
+        ],
+        "js": [
+          "content.js"
+        ]
+      }
+    ]
   }
