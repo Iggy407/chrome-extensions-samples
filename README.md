@@ -12,6 +12,10 @@ The CSV_download chrome extension is able to find and download the CSV file with
 
 At the moment the extension is able to find the name of the CSV file from kaggle. I think coding the extension such that the CSV from kaggle is directly imported into the LION website is possible and probably easier than the excel file as a downloadable document: [https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls](https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls). The mendeley page should also work because uses a  HTML span element to identify the xls files e.g., `<span class="name" title="Voronoi_10.xlsx">`.
 
+## Ideas
+
+Could the extension plot the graph directly?
+
 ## Details (do not read unless you have time)
 
 **CSV_download**: This JavaScript IIFE automates clicking a download button and a download area on a webpage. The `clickDownloadButton` function locates and clicks a button (`button.sc-edmcci.cKvyOD.sc-dubKuk.ksfWT`), retrying every 500ms if not found. Similarly, `initiateDownload` clicks a download area (`.sc-gQkENW.hyybuT`), also retrying if necessary. The script checks if the page is fully loaded before execution—if so, it runs immediately; otherwise, it waits for the load event. It first clicks the button, then waits 500ms before clicking the download area. If elements are missing, it keeps retrying. This automation simulates user interaction to facilitate downloads.
