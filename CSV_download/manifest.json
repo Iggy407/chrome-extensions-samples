@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Dataset Downloader",
+    "version": "1.0",
+    "description": "Downloads the dataset from the page.",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ]
+  }
