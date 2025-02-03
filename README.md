@@ -1,6 +1,6 @@
-# Ideas
+# Run the following extensions
 
-(NEW) Use the CSV_download chrome extension for the two kaggle pages below. 
+(NEW) Use the CSV_download chrome extension for the two kaggle pages below.
 
 Try to use the CSV_Filename_Detector on kaggle: [https://www.kaggle.com/datasets/bravehart101/sample-supermarket-dataset](https://www.kaggle.com/datasets/bravehart101/sample-supermarket-dataset), and test on another dataset: https://www.kaggle.com/datasets/ankushpanday1/leukemia-cancer-risk-prediction-dataset.
 
@@ -8,7 +8,7 @@ Try to use the CSV_Filename_Detector on kaggle: [https://www.kaggle.com/datasets
 
 ## Overview
 
-The CSV_download chrome extension is able to find and download the CSV file with 1 click. We might be able to use something similar to import it directly into the website. 
+The CSV_download chrome extension is able to find and download the CSV file with 1 click. We might be able to use something similar to import it directly into the website.
 
 At the moment the extension is able to find the name of the CSV file from kaggle. I think coding the extension such that the CSV from kaggle is directly imported into the LION website is possible and probably easier than the excel file as a downloadable document: [https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls](https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls). The mendeley page should also work because uses a  HTML span element to identify the xls files e.g., `<span class="name" title="Voronoi_10.xlsx">`.
 
