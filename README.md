@@ -1,8 +1,9 @@
 # Ideas
 
-Try to use the CSV name detector on kaggle: [https://www.kaggle.com/datasets/bravehart101/sample-supermarket-dataset](https://www.kaggle.com/datasets/bravehart101/sample-supermarket-dataset), and test on another dataset https://www.kaggle.com/datasets/ankushpanday1/leukemia-cancer-risk-prediction-dataset. 
+Try to use the CSV name detector on kaggle: [https://www.kaggle.com/datasets/bravehart101/sample-supermarket-dataset](https://www.kaggle.com/datasets/bravehart101/sample-supermarket-dataset), and test on another dataset https://www.kaggle.com/datasets/ankushpanday1/leukemia-cancer-risk-prediction-dataset.
 
-(This is still work in progress) And the combined CSV and Excel detector on https://data.mendeley.com/datasets/bvxrgng7y2/1. 
+(This is still work in progress) And the combined CSV and Excel detector on https://data.mendeley.com/datasets/bvxrgng7y2/1.
+
 
 ## Overview
 
