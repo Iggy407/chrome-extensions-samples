@@ -14,7 +14,7 @@ At the moment the extension is able to find the name of the CSV file from kaggle
 
 ## Ideas
 
-Could the extension plot the graph directly?
+Could the extension plot the graphs directly?
 
 ## Details (do not read unless you have time)
 
