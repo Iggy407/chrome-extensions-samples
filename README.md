@@ -16,6 +16,8 @@ At the moment the extension is able to find the name of the CSV file from kaggle
 
 Could the extension plot the graphs directly?
 
+For website background? https://www.3blue1brown.com/
+
 ## Details (do not read unless you have time)
 
 **CSV_download**: This JavaScript IIFE automates clicking a download button and a download area on a webpage. The `clickDownloadButton` function locates and clicks a button (`button.sc-edmcci.cKvyOD.sc-dubKuk.ksfWT`), retrying every 500ms if not found. Similarly, `initiateDownload` clicks a download area (`.sc-gQkENW.hyybuT`), also retrying if necessary. The script checks if the page is fully loaded before execution—if so, it runs immediately; otherwise, it waits for the load event. It first clicks the button, then waits 500ms before clicking the download area. If elements are missing, it keeps retrying. This automation simulates user interaction to facilitate downloads.
